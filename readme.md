@@ -3,7 +3,7 @@ Dieses Projekt ist aus einem Schulprojekt hervorgegangen, bei dem es darum ging,
 Es handelt sich um ein Smarthome-system dessen Alleinstellungsmerkmal darin besteht, dass man keine intelligenten Glühbirnen oder ähnliches kaufen muss, sondern einfach diese kleinen ESPs an den Lichtschaltern anbringen kann, die diese dann umschalten können. 
 Das Projekt befindet sich noch in der Entwicklung
 
-Die Dokumentation/Kommentare sind derzeit alle auf Deutsch, ebenso wie die Anleitungs-PDF, aber ich werde sie irgendwann in Englisch übersetzen.
+Die Dokumentation/Kommentare sind derzeit alle auf Deutsch, aber ich werde sie irgendwann auf Englisch übersetzen.
 
 Die beiden Bibliotheken, die der Einfachkeit halber als .ZIP angefügt wurden, wurden nicht modifiziert und stammen von https://github.com/me-no-dev
 
