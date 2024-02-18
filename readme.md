@@ -5,6 +5,7 @@ Das Projekt befindet sich noch in der Entwicklung
 
 Die Dokumentation/Kommentare sind derzeit alle auf Deutsch, ebenso wie die Anleitungs-PDF, aber ich werde sie irgendwann in Englisch übersetzen.
 
+Die beiden Bibliotheken, die der Einfachkeit halber als .ZIP angefügt wurden, wurden nicht modifiziert und stammen von https://github.com/me-no-dev
 
 
 this project originated from a school project, where the goal was to create something to help disabled people.
@@ -13,3 +14,5 @@ It is a 'Smart' Home system, the unique selling point is that, you don't have to
 The project is still under development
 
 currently, the documentation/comments are all in German, so is the guide-pdf, but I will translate those at some point in the future. 
+
+both librarys weren't modified and come from https://github.com/me-no-dev. All credit for those librarys go to him
