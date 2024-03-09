@@ -66,18 +66,21 @@ void loop() {
   if (input == "A" && counter == 0) {
     if (up == true){
       degree = 90;
-      up == false;
+      up = false;
     } else {
       degree = 0;
-      up == true;
+      up = true;
     }//wenn der Schalter oben ist (up == true), drücke ihn runter, wenn nicht, ziehe ihn hoch
     //(das ziehen soll mit doppelseitigem Klebeband funktionieren, muss noch getestet werden 
-    
     counter = counter + 1;
     // der counter dient dazu, die aktion nur auszuführen, wenn das erste mal 'A' empfangen wird, damit nicht der Knopf dauerhaft umgelegt wird. 
+  } else if (input == "A" && counter >= 1) {
+    counter = counter + 1;
   } else if (input != "A") {
     counter = 0;
   } // wenn etwas anderes als 'A' empfangen wird, wird der counter zurückgesetzt und das Programm wird das nächste mal, wenn 'A' empfangen wird, die Aktion wieder ausführen.
+  Serial.print("the counter is ");
+  Serial.println(counter);
   Serial.print("Servo is at ");
   Serial.println(degree);
   servo.write(degree);
